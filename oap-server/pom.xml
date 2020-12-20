@@ -85,7 +85,7 @@
         <etcd4j.version>2.17.0</etcd4j.version>
         <etcd.version>v3.2.3</etcd.version>
         <netty.version>4.1.42.Final</netty.version>
-        <jackson-module-afterburner.version>2.9.5</jackson-module-afterburner.version>
+        <jackson-module-afterburner.version>2.10.0.pr1</jackson-module-afterburner.version>
         <antlr.version>4.7.1</antlr.version>
         <freemarker.version>2.3.28</freemarker.version>
         <javaassist.version>3.25.0-GA</javaassist.version>
