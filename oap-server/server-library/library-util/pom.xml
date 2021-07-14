@@ -30,7 +30,7 @@
 
     <properties>
         <ststem-rules.version>1.18.0</ststem-rules.version>
-        <protobuf-java.version>3.11.4</protobuf-java.version>
+        <protobuf-java.version>3.17.3</protobuf-java.version>
     </properties>
 
     <dependencies>
