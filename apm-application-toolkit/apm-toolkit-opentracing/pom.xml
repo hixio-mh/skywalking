@@ -28,7 +28,7 @@
     <artifactId>apm-toolkit-opentracing</artifactId>
 
     <properties>
-        <opentracing.version>0.30.0</opentracing.version>
+        <opentracing.version>0.33.0</opentracing.version>
     </properties>
 
     <dependencies>
