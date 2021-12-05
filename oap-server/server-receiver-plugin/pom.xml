@@ -62,7 +62,7 @@
         <dependency>
             <groupId>org.apache.skywalking</groupId>
             <artifactId>library-util</artifactId>
-            <version>${project.version}</version>
+            <version>8.8.1</version>
         </dependency>
     </dependencies>
 </project>
