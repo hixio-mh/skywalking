@@ -28,7 +28,7 @@
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
         <version>21</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <modules>
@@ -186,7 +186,7 @@
         <checkstyle.version>6.18</checkstyle.version>
         <junit.version>4.12</junit.version>
         <mockito-all.version>1.10.19</mockito-all.version>
-        <lombok.version>1.18.10</lombok.version>
+        <lombok.version>1.18.22</lombok.version>
 
         <!-- core lib dependency -->
         <grpc.version>1.26.0</grpc.version>
@@ -605,7 +605,7 @@
                 <artifactId>cobertura-maven-plugin</artifactId>
                 <version>${cobertura-maven-plugin.version}</version>
                 <configuration>
-                    <check />
+                    <check/>
                     <aggregate>true</aggregate>
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <quiet>true</quiet>
