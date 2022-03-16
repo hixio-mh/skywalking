@@ -92,7 +92,7 @@
         <vavr.version>0.10.3</vavr.version>
 
         <zookeeper.image.version>3.5</zookeeper.image.version>
-        <protobuf-java-util.version>3.11.4</protobuf-java-util.version>
+        <protobuf-java-util.version>3.19.4</protobuf-java-util.version>
 
     </properties>
 
