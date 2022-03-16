@@ -103,7 +103,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sdk.plugin.related.dir />
+        <sdk.plugin.related.dir/>
         <shade.net.bytebuddy.source>net.bytebuddy</shade.net.bytebuddy.source>
         <shade.net.bytebuddy.target>${shade.package}.${shade.net.bytebuddy.source}</shade.net.bytebuddy.target>
 
@@ -119,7 +119,7 @@
         <dependency>
             <groupId>org.apache.skywalking</groupId>
             <artifactId>apm-agent-core</artifactId>
-            <version>${project.version}</version>
+            <version>8.9.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -171,12 +171,12 @@
                         </goals>
                         <configuration>
                             <tasks>
-                                <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.runtime.classpath" />
+                                <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.runtime.classpath"/>
                                 <if>
-                                    <equals arg1="${project.packaging}" arg2="jar" />
+                                    <equals arg1="${project.packaging}" arg2="jar"/>
                                     <then>
-                                        <mkdir dir="${plugin.dest.dir}" />
-                                        <copy file="${project.build.directory}/${project.artifactId}-${project.version}.jar" tofile="${plugin.dest.dir}/${project.artifactId}-${project.version}.jar" overwrite="true" />
+                                        <mkdir dir="${plugin.dest.dir}"/>
+                                        <copy file="${project.build.directory}/${project.artifactId}-${project.version}.jar" tofile="${plugin.dest.dir}/${project.artifactId}-${project.version}.jar" overwrite="true"/>
                                     </then>
                                 </if>
 
